@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background-color: #1f2937;
+  color: white;
+  padding: 12px 120px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.header__links {
+  display: flex;
+  gap: 12px;
+}
+
+li {
+  list-style: none;
+  font-weight: 300;
+}
+
+.header__bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 16px auto;
+  margin-bottom: 96px;
+}
+
+.header__info {
+  width: 40%;
+}
+
+.header__para {
+  font-weight: 300;
+}
+
+.header__img--wrapper {
+  width: 60%;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: white;
+  padding: 6px 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Info */
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info__images {
+  display: flex;
+  flex-direction: row;
+  gap: 4px
+}
+
+.info__image--container {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+    gap: 8px
+}
+
+.info__image--wrapper {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.info__image {
+    align-self: center;
+}
+
+.info__image--description {
+    text-align: center;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote__container {
+    padding: 100px 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote__text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0%;
+}
+
+.quote__credit {
+    margin-top: 0;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+/* Signup */
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.signup__card {
+    background-color: #3882f6;
+    color: white;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 84px;
+    border-radius: 8px;
+}
+
+.signup__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup__slogan {
+    margin-bottom: 0
+}
+
+.signup__btn {
+    border: 2px solid white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    margin: 48px auto;
+}
